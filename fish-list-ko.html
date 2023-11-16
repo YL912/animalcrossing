@@ -10,6 +10,7 @@
   <h1>내 물고기는 얼마일까</h1>
   <label for="month">몇월이여:</label>
   <select id="month" onchange="updateFishList()">
+    <option value="null">-</option>
     <option value="1">1월</option>
     <option value="2">2월</option>
     <option value="3">3월</option>
@@ -26,6 +27,7 @@
 
   <label for="category">어디서잡어:</label>
   <select id="category" onchange="updateFishList()">
+    <option value="null">-</option>
     <option value="freshwater">강</option>
     <option value="sea_fishing">바다</option>
     <option value="sea_diving">따이빙</option>
