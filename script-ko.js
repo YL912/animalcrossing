@@ -739,7 +739,7 @@ function loadFishData(language) {
         ]
     };
 
-    return language === "en" ? englishFishData : koreanFishData;
+    return language === "ko" ? englishFishData : koreanFishData;
 }
   
 // Function to update fish list based on selected month and category
