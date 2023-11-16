@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>language selection</title>
+  <link rel="stylesheet" href="start-screen.css">
+</head>
+<body>
+  <div class="start-screen">
+    <h1>이게 과연 될까</h1>
+    <p>어떤 언어를 사용하는 동물의 숲:</p>
+    <button onclick="redirectToFishList('en')">English</button>
+    <button onclick="redirectToFishList('ko')">한국어</button>
+  </div>
+
+  <script>
+    function redirectToFishList(language) {
+      window.location.href = `fish-list-${language}.html`;
+    }
+  </script>
+</body>
+</html>

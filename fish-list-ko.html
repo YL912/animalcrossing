@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fish List (한국어)</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>내 물고기는 얼마일까</h1>
+  <label for="month">몇월이여:</label>
+  <select id="month" onchange="updateFishList()">
+    <option value="1">1월</option>
+    <option value="2">2월</option>
+    <option value="3">3월</option>
+    <option value="4">4월</option>
+    <option value="5">5월</option>
+    <option value="6">6월</option>
+    <option value="7">7월</option>
+    <option value="8">8월</option>
+    <option value="9">9월</option>
+    <option value="10">10월</option>
+    <option value="11">11월</option>
+    <option value="12">12월</option>
+  </select>
+
+  <label for="category">어디서잡어:</label>
+  <select id="category" onchange="updateFishList()">
+    <option value="freshwater">강</option>
+    <option value="sea_fishing">바다</option>
+    <option value="sea_diving">따이빙</option>
+  </select>
+
+  <ul id="fishList"></ul>
+
+  <script src="script-ko.js"></script>
+</body>
+</html>
