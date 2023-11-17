@@ -11,7 +11,7 @@ function loadFishData(language) {
         },
         fishList: [
             {
-              "name": "golden trout",
+              "name": "금송어",
               "months": "3,4,5,9,10,11",
               "price": "15,000",
               "category": "freshwater"
