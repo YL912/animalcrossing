@@ -1496,7 +1496,7 @@ function updateFishList() {
       const listItem = document.createElement('li');
       listItem.innerHTML = `
         <span class="fish-name">${fish.name}</span>
-        <span class="fish-price">$${fish.price}</span>
+        <span class="fish-price">${fish.price}</span>
       `;
       fishListContainer.appendChild(listItem);
     });
